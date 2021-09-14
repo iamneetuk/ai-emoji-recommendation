@@ -6,10 +6,14 @@ import re
 import torch
 from transformers import AutoTokenizer
 from transformers import AutoModel
+import nltk
+
 from sklearn.metrics.pairwise import cosine_similarity
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import streamlit as st
+nltk.download('stopwords')
+
 
 class EmojiRecommender:
     def __init__(self):
@@ -78,6 +82,7 @@ class EmojiRecommender:
 
 
 obj = EmojiRecommender()
+
 
 st.title("Emoji Prediction")
 st.subheader("Write a comment")
