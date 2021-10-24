@@ -2,7 +2,7 @@
 
 This library provides smart emoji recommendations on the input text using novel Natural Language Processing methods.
 
-Built by [Kamal Kant](https://kama1kant.com/)
+Built by [Neetu Kumari](https://neetukumari.com/)
 
 ##  How it works
 ### Dataset
@@ -23,12 +23,12 @@ streamlit run streamlit-emoji-recommender.py
 ```
 
 ## Libraries used
-- Pytorch
-- Huggingface Transformers
+- PyTorch
+- Hugging Face Transformers
 - BERT
 - NLTK
 - Pandas
 - NumPy
 
 ## Contact
-If you have any questions or feedback, feel free to reach out to me at <kamalkant.k3@gmail.com>
+If you have any questions or feedback, feel free to reach out to me at <neetukum@usc.edu>
